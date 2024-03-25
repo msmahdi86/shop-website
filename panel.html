@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>admin</title>
+    <style>
+        @font-face {
+            font-family: titr;
+            src: url(2_Titr_Bold.ttf);
+        }
+
+        @font-face {
+            font-family: sahel;
+            src: url(Sahel-Bold.ttf);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        [class*="col-"] {
+            float: right;
+            height: 10vw;
+            background-color: lightgray;
+            border-radius: 1vw;
+            margin: 1vw;
+            margin-top: 15vw;
+            font-family: sahel;
+            font-size: 0.6vw;
+        }
+
+        .col-2 {
+            width: 14.5%;
+            transition: 500ms;
+        }
+
+        .col-2:hover {
+            box-shadow: 0 0 20px;
+            transition: 500ms
+        }
+
+        @media only screen and (max-width: 768px) {
+            [class*="col-"] {
+                width: 100%;
+                height: 20vw;
+                margin-top: 5vw;
+                font-size: 1.4vw;
+                padding-right: 40%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color: black;border-radius: 1vw; height: 6vw;">
+        <h1 style="color: white; padding: 1vw;font-family: titr;padding-right: 2vw; font-size: 2vw;">پنل مدیریت</h1>
+    </div>
+    <div class="row">
+        <div class="col-2 ">
+            <img src="upload.png" alt="upload"
+                style="width: 65%vw; height: 65%;  padding-right: 4.5vw; padding-top: 2vw;">
+            <h1 style="padding-right: 4.8vw; line-height: 0;">آپلود کالا</h1>
+        </div>
+        <div class="col-2 ">
+            <img src="list.png" alt="upload" style="width: 60%vw; height: 70%; padding-right: 4.5vw; padding-top: 1vw;">
+            <h1 style="padding-right: 4vw; line-height: 0;">لیست کالا</h1>
+        </div>
+        <div class="col-2 ">
+            <img src="karbar.png" alt="upload"
+                style="width: 65%vw; height: 65%; padding-right: 4.5vw; padding-top: 1.7vw;">
+            <h1 style="padding-right: 4vw; line-height: 0;">لیست کاربر</h1>
+        </div>
+        <div class="col-2 ">
+            <img src="category.png" alt="upload"
+                style="width: 62%vw; height: 62%; padding-right: 5vw; padding-top: 2.5vw;">
+            <h1 style="padding-right: 4.2vw; line-height: 0;">دسته بندی</h1>
+        </div>
+        <div class="col-2 ">
+            <img src="ability.png" alt="upload"
+                style="width: 60%vw; height: 65%; padding-right: 5.5vw; padding-top: 1.5vw; mix-blend-mode: color-burn;">
+            <h1 style="padding-right: 5vw; line-height: 0;">ویژگی ها</h1>
+        </div>
+        <div class="col-2 ">
+            <img src="berand.png" alt="upload" style="width: 65%vw; height: 65%; padding-right: 5vw; padding-top: 2vw;">
+            <h1 style="padding-right: 4.5vw; line-height: 0;">برند محصول</h1>
+        </div>
+    </div>
+
+
+    </div>
+</body>
+
+</html>
