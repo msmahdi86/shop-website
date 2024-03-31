@@ -1,0 +1,107 @@
+.product_grid{
+    background-color: #f9f9f9;
+}
+.single_widget{
+    background-color: #fff;
+padding: 30px;
+border: 1px solid #eee;
+border-radius: 4px;
+margin-bottom: 30px;
+}
+.single_widget h5{
+    position: relative;
+margin-bottom: 24px;
+padding-bottom: 12px;
+border-bottom: 1px solid #e5e5e5;
+color: #232323;
+font-size: 15px;
+}
+.search form{
+    position: relative;
+}
+.search input{
+    height: 50px;
+width: 100%;
+border: 1px solid #eee;
+border-radius: 6px;
+color: #081828;
+padding: 0 15px;
+  padding-right: 15px;
+padding-right: 50px;
+}
+.search button{
+    border-radius: 6px;
+border: none;
+background-color: transparent;
+color: #081828;
+position: absolute;
+right: 5px;
+top: 50%;
+transform: translateY(-50%);
+transition: all .4s ease;
+font-size: 16px;
+}
+.search button:hover{
+    color: #0167f3;
+}
+.single_widget_list a{
+    color: #666;
+position: relative;
+font-weight: 400;
+font-size: 14px;
+display: inline-block;
+margin-right: 3px;
+}
+.single_widget_list a:hover{
+    color: #0167f3;
+}
+.range_inner{
+    position: relative;
+}
+.range_inner label{
+display: inline-block;
+position: absolute;
+right: 0;
+top: 50%;
+transform: translateY(-50%);
+font-size: 15px;
+}
+.condition .form-check-input,
+.condition .form-check-label{
+  cursor: pointer;
+}
+.product_grid_tipbar{
+    padding: 15px 20px;
+background-color: #fff;
+border-radius: 4px;
+border: 1px solid #eee;
+padding-right: 15px;
+}
+.product-sorting label{
+    display: inline-block;
+margin: 0;
+padding: 8px 5px 8px 0;
+color: #999;
+font-size: 14px;
+font-weight: 400;
+}
+.pagination_list a{
+    background: #fff;
+color: #081828;
+font-weight: 500;
+font-size: 14px;
+border-radius: 4px;
+padding: 6px 18px;
+text-align: center;
+border: 1px solid #eee;
+}
+.active-pagination a{
+    background-color: #0167f3;
+    border-color: transparent;
+    color: #fff;
+}
+.pagination_list a:hover{
+    background-color: #0167f3;
+    border-color: transparent;
+    color: #fff;
+}

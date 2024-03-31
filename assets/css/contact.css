@@ -1,0 +1,77 @@
+.contact_info{
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+.single_info{
+    margin-bottom: 30px;
+    position: relative;
+    transition: all .3s ease;
+}
+.single_info i{
+    color: #0167f3;
+}
+.single_info h5{
+    color: #081828;
+    font-family: 'ekad-700';
+}
+.single_info a{
+    color: #888 ;
+}
+.single_info a:hover{
+    color: #0167f3;
+}
+.single_info_phone{
+    direction: ltr;
+    text-align: right;
+}
+.contact_form{
+    margin-top: 30px;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+.form-group input{
+    height: 52px;
+    line-height: 52px;
+    width: 100%;
+    border: 1px solid #e6e2f5;
+    padding: 0 20px;
+    color: #333;
+    font-weight: 400;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.form-group textarea{
+    height: 180px;
+    width: 100%;
+    border: 1px solid #e6e2f5;
+    padding: 15px 20px;
+    color: #333;
+    resize: none;
+    font-weight: 400;
+    resize: vertical;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.form_btn button{
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'ekad-700';
+    padding: 13px 30px;
+    background-color: #0167f3;
+    color: #fff;
+    border: none;
+    transition: .2s;
+    border-radius: 3px;
+    position: relative;
+    z-index: 1;
+    margin-right: 7px;
+    overflow: hidden;
+}
+.form_btn button:hover{
+    background-color: #081828;
+}

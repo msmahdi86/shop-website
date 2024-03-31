@@ -1,0 +1,63 @@
+/* -----------------------------------breadcrumbs_section----------------------------- */
+.breadcrumbs_section{
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 7px 30px rgba(0,0,0,.075);
+}
+.breadcrumb{
+    background-color: transparent;
+    color: #888 !important;
+}
+.breadcrumb a{
+    color: #888 !important;
+}
+.breadcrumb a:hover{
+    color: #0167f3 !important;
+}
+/* -----------------------------------breadcrumbs_section end------------------------- */
+/* -----------------------------------about_us---------------------------------------- */
+.about_us{
+    background-color: #f9f9f9;
+}
+.about_us img{
+    width: 100%;
+    border-radius: .25rem;
+}
+/* -----------------------------------about_us end------------------------------------ */
+/* -----------------------------------team section------------------------------------ */
+.single_team{
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 35px;
+    transition: all .4s ease;
+}
+.single_team:hover {
+    box-shadow:0 5px 10px rgba(0,0,0,.123)
+}
+.single_team_img img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    display: inline-block;
+    padding: 5px;
+}
+.single_team_content a{
+    height: 35px;
+    width: 35px;
+    line-height: 32px;
+    text-align: center;
+    border: 1px solid #eee;
+    color: #444;
+    border-radius: 50%;
+    font-size: 14px;
+    transition: all .4s ease;
+}
+.single_team_content a:hover {
+    border-color:transparent;
+    color:#fff;
+    background-color:#0167f3
+   }
+/* -----------------------------------team section end-------------------------------- */

@@ -1,0 +1,31 @@
+.register_section{
+    background-color: #f9f9f9;
+}
+.register_form{
+    padding: 40px;
+border: 1px solid #e6e6e6;
+border-radius: 4px;
+background-color: #fff;
+box-shadow: 0 5px 40px #00000008;
+}
+.form-button{
+    width: 90%;
+    display: block;
+    margin: 1rem auto;
+}
+.form-button button{
+    display: inline-block;
+    width: 100%;
+padding: 13px 30px;
+background-color: #0167f3;
+color: #fff;
+border: none;
+transition: all .2s ease;
+border-radius: 3px;
+position: relative;
+z-index: 1;
+overflow: hidden;
+}
+.form-button button:hover{
+    background-color: #081828;
+}

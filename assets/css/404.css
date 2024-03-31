@@ -1,0 +1,21 @@
+.four_o_four_section{
+    height: 100vh;
+}
+.four_o_four_section .row{
+    height: 100%;
+}
+.four_o_four_section h1{
+    color: #0167f3;
+    font-family: 'ekad-700';
+    font-size: 6rem;
+    margin-bottom: 2rem;
+}
+.four_o_four_section a{
+    color: #fff;
+    background-color: #0167f3;
+    border-radius: .25rem;
+}
+.four_o_four_section a:hover{
+    background-color: #081828;
+    color: #fff;
+}
